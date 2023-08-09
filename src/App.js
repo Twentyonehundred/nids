@@ -420,32 +420,32 @@ function App() {
 							onChange={modelNoChange}
 						/>
 					</Grid>
-					<Grid className="topContainer" item item xs={12} sm={6} md={6} lg={2} >
+					<Grid className="topContainer" item xs={12} sm={6} md={6} lg={2} >
 						<div className="midContainer">
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-attack.svg" />
+									<img className="iconImg" src="icon-attack.svg" />
 									Attacks: 
 								</div>
 								<span className="textRight">{attackText}</span>
 							</div>
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-strength.svg" />
+									<img className="iconImg" src="icon-strength.svg" />
 									Strength: 
 								</div>
 								<span className="textRight">{strengthText}</span>
 							</div>
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-ap.svg" />
+									<img className="iconImg" src="icon-ap.svg" />
 									AP: 
 								</div>
 								<span className="textRight">{APText}</span>
 							</div>
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-damage.svg" />
+									<img className="iconImg" src="icon-damage.svg" />
 									Damage: 
 								</div>
 								<span className="textRight">{damageText}</span>
@@ -495,21 +495,21 @@ function App() {
 						<div className="midContainer">
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-attack.svg" />
+									<img className="iconImg" src="icon-attack.svg" />
 									Total wounds: 
 								</div>
 								<span className="textRight">{totalWounds}</span>
 							</div>
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-strength.svg" />
+									<img className="iconImg" src="icon-strength.svg" />
 									Total damage: 
 								</div>
 								<span className="textRight">{totalDamage}</span>
 							</div>
 							<div className="textIconContainer">
 								<div item className="textIcon">
-									<img className="iconImg" src="/icon-ap.svg" />
+									<img className="iconImg" src="icon-ap.svg" />
 									Post FNP: 
 								</div>
 								<span className="textRight">{APText}</span>
